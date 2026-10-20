@@ -8,5 +8,5 @@ joblib==1.3.2
 numpy==1.26.2
 pandas==2.1.2
 
-# Descarga remota del modelo desde GitHub (Paso 8)
+# Descarga remota del modelo desde GitHub 
 requests==2.31.0
