@@ -1,4 +1,12 @@
-# TODO: Las dependencias para ejecutar app.py en producción.
-# Puedes incluir las necesarias para entrenar el modelo tambien.
-# Revisa los imports de app.py y decide cuáles son necesarias.
+# Servidor web y API (Producción en Render)
+Flask==3.0.0
+gunicorn==21.2.0
 
+# Carga y ejecución del modelo Machine Learning
+scikit-learn==1.3.2
+joblib==1.3.2
+numpy==1.26.2
+pandas==2.1.2
+
+# Descarga remota del modelo desde GitHub (Paso 8)
+requests==2.31.0
